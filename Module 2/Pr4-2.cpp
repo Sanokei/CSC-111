@@ -1,6 +1,7 @@
 // This program averages three test scores
 #include <iostream>
 #include <iomanip>
+#include "name.cpp"
 using namespace std;
 
 int main()
@@ -21,5 +22,7 @@ int main()
    // If the average is a high score, congratulate the user.
    if (average > HIGH_SCORE)
       cout << "Congratulations! That's a high score!\n";
+   
+   name();
    return 0;
 } 
