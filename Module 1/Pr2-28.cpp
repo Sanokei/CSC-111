@@ -1,5 +1,6 @@
 // This program calculates the circumference of a circle.
 #include <iostream>
+#include "name.cpp"
 using namespace std;
 
 int main()
@@ -15,6 +16,8 @@ int main()
 	circumference = PI * DIAMETER;
 
 	// Display the circumference.
+	cout << "The circle has a DIAMETER of : " << DIAMETER << endl;
 	cout << "The circumference is: " << circumference << endl;
+	cout << name() << endl;
 	return 0;
 }
