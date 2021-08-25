@@ -6,6 +6,7 @@ Assignments for CSC 111. Missing: `2-21, 3-5, 4-14`
 * If you are required to upload the cpp file
     * Replace `#include "name.cpp"` with nothing
     * Replace `name()` with `cout << "Submitted by: your-name\n";`
+    * If you have questions you can ask them [here](https://github.com/Sanokei/CSC-111/discussions/1)
 
 
 ### Note
