@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <limits>
 #include "name.cpp"
 using namespace std;
 
@@ -14,6 +15,8 @@ int main()
    int total = 0;
    int count = 0;
    double average;
+   int maxNum = 0;
+   int minNum = 0;
 
    // Get the filename from the user.
    cout << "Enter the filename: ";
@@ -31,9 +34,18 @@ int main()
       {
          count++;
          total = total + number;
+
+         maxNum = max(maxNum,number);
+         minNum = min(minNum,number);
       }
       average = total / count;
-      cout << "There are " << count << " numbers, average value is " << average << endl;
+
+      cout<<"Minimum value: "<<minNum<<endl;
+      cout<<"Maximum value: "<<maxNum<<endl;
+      cout<<"Average: "<<average<<endl;
+      cout<<"Total value: "<<total<<endl;
+      cout<<"Number of records: "<<count<<endl;
+
       // Close the file.
       inputFile.close();
    }
@@ -42,6 +54,6 @@ int main()
 	   // Display an error message.
 	   cout << "Error opening the file.\n";
    }
-   
+   name();
    return 0;
 }

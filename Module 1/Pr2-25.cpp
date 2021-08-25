@@ -21,6 +21,6 @@ int main()
 	cout << totalSeconds << " is equivalent to:\n";
 	cout << "Minutes: " << minutes << endl;
 	cout << "Seconds: " << seconds << endl;
-	cout << name() << endl;
+	name();
 	return 0;
 }

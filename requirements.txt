@@ -1,0 +1,11 @@
+name.cpp
+; you need to create a name.cpp in each module
+; That looks like This
+
+; name.cpp
+
+; #include <iostream>
+; using namespace std;
+; void name(){
+;     cout << "Submitted by: your-name\n";
+; }

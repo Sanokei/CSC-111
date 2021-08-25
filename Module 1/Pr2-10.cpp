@@ -17,6 +17,6 @@ int main()
    cout << "Our checking account balance is " << checking;
    cout << "\nThe galaxy is about " << diameter;
    cout << " light years in diameter.\n";
-   cout << name() << endl;
+   name();
    return 0;
 }

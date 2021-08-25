@@ -18,6 +18,6 @@ int main()
 	// Display the circumference.
 	cout << "The circle has a DIAMETER of : " << DIAMETER << endl;
 	cout << "The circumference is: " << circumference << endl;
-	cout << name() << endl;
+	name();
 	return 0;
 }
