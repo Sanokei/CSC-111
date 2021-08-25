@@ -1,10 +1,9 @@
 # CSC-111
-Assignments for CSC 111
-Missing: `2-21, 3-5, 4-14`
+Assignments for CSC 111. Missing: `2-21, 3-5, 4-14`
 
 ## Important
-* Read the requirements file to know what to create to get the program running
-* The homeworks require a cpp file to be uploaded.
+* Read the requirements file
+* If you are required to upload the cpp file
     * Replace `#include "name.cpp"` with nothing
     * Replace `name()` with `cout << "Submitted by: your-name\n";`
 
