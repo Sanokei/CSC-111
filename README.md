@@ -1,10 +1,6 @@
 # CSC-111
 Assignments for CSC 111
-
-Missing:
-* 2-21
-* 3-5
-* 4-14
+Missing: `2-21, 3-5, 4-14`
 
 ## Important
 * Read the requirements file to know what to create to get the program running
