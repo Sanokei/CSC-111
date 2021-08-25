@@ -10,7 +10,7 @@ Assignments for CSC 111
 <ul>
 <li>Replace `#include "name.cpp"` with nothing</li> 
 <li>Replace `name()` with `cout << "Submitted by: William Freire\n";`</li> 
-<ul>
+</ul>
 </ul>
 
 ### Note
