@@ -1,5 +1,5 @@
 # CSC-111
-Assignments for CSC 111. Missing: `2-21, 3-5, 4-14, HW3, Hw4, Hw5, Hw6,HW7`
+Assignments for CSC 111. Missing: `2-21, 3-5, 4-14, Hw4, Hw5, Hw6,HW7`
 
 ## Important
 * Read the requirements file
